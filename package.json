@@ -1,0 +1,21 @@
+{
+  "name": "jump-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect src/app.js --exec babel-node",
+    "start": "babel-node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "sharp": "^0.18.4",
+    "shelljs": "^0.7.8",
+    "@babel/cli": "^7.0.0-beta.35",
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/node": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35"
+  }
+}
